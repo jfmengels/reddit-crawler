@@ -33,4 +33,5 @@ jspm_packages
 .lock-wscript
 
 # jspm bundle file
+build/
 build.js*
