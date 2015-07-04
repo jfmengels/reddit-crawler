@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>LoopGIFs</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      #gifs img {
+        display: block;
+        float: left;
+        width: 50vw;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Get Reddit top results' images</h1>
+    <ul id="links"></ul>
+
+    <div id="gifs"></div>
+
+    <!-- DEV MODE -->
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+      System.import('lib/main');
+    </script>
+
+    <!-- PRODUCTION MODE -->
+    <!-- <script src="build.js"></script> -->
+    
+  </body>
+</html>

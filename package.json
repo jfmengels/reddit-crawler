@@ -1,0 +1,40 @@
+{
+  "name": "reddit-crawler",
+  "version": "1.0.0",
+  "description": "Reddit crawler. Based on the talk by Glen Maddern http://glenmaddern.com/articles/javascript-in-2015",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "build": "jspm bundle-sfx --minify lib/main build/main.js"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "jsonp": "npm:jsonp@^0.2.0",
+      "qs": "npm:qs@^3.1.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4",
+      "live-reload": "npm:live-reload@^1.1.0"
+    }
+  },
+  "keywords": [
+    "reddit",
+    "crawler",
+    "glen",
+    "maddern"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfmengels/reddit-crawler.git"
+  },
+  "author": "Jeroen Engels <jfm.engels@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfmengels/reddit-crawler/issues"
+  },
+  "homepage": "https://github.com/jfmengels/reddit-crawler#readme"
+}
